@@ -25,7 +25,7 @@ namespace GoogleDriveApp.Controllers
             try
             {
                 var fileId = "***************************"; // Payla��lacak dosyan�n ID'si
-                var emailAddress = "ibrahim.ozturk@demircode.com"; // Al�c�n�n e-posta adresi
+                var emailAddress = "xxxxxxxxxx@xxxxx.com"; // Al�c�n�n e-posta adresi
 
                 // Dosyay� payla�
                 await _googleDriveService.ShareFileAsync(fileId, emailAddress);
@@ -45,3 +45,4 @@ namespace GoogleDriveApp.Controllers
         }
     }
 }
+
